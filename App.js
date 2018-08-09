@@ -6,20 +6,6 @@
  * @flow
  */
 
-import React from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
-
-class App extends Component {
-  state = {
-    isDefault: true,
-  };
-  render() {
-    return (
-      <View>
-        <Text>{'This is test'}</Text>
-      </View>
-    );
-  }
-}
+import App from './app/index';
 
 export default App;

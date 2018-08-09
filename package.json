@@ -12,12 +12,16 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": ["yarn run format-code", "git commit"]
+    "*.js": [
+      "yarn run format-code",
+      "git commit"
+    ]
   },
   "dependencies": {
     "react": "16.4.1",
     "react-native": "0.56.0",
     "react-native-elements": "0.19.1",
+    "react-native-extended-stylesheet": "^0.8.1",
     "react-native-vector-icons": "5.0.0"
   },
   "devDependencies": {

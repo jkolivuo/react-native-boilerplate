@@ -29,6 +29,9 @@ node_modules/react-native/flow-github/
 [options]
 emoji=true
 
+module.name_mapper='@lib' -> '<PROJECT_ROOT>/app/lib'
+module.name_mapper='@components' -> '<PROJECT_ROOT>/app/components'
+
 module.system=haste
 module.system.haste.use_name_reducers=true
 # get basename
@@ -62,6 +65,7 @@ suppress_comment=\\(.\\|\n\\)*\\$FlowFixMe\\($\\|[^(]\\|(\\(<VERSION>\\)? *\\(si
 suppress_comment=\\(.\\|\n\\)*\\$FlowIssue\\((\\(<VERSION>\\)? *\\(site=[a-z,_]*react_native[a-z,_]*\\)?)\\)?:? #[0-9]+
 suppress_comment=\\(.\\|\n\\)*\\$FlowFixedInNextDeploy
 suppress_comment=\\(.\\|\n\\)*\\$FlowExpectedError
+
 
 [version]
 ^0.75.0
