@@ -31,6 +31,9 @@ emoji=true
 
 module.name_mapper='@lib' -> '<PROJECT_ROOT>/app/lib'
 module.name_mapper='@components' -> '<PROJECT_ROOT>/app/components'
+module.name_mapper='@config' -> '<PROJECT_ROOT>/app/config'
+module.name_mapper='@ducks' -> '<PROJECT_ROOT>/app/ducks'
+module.name_mapper='@screens' -> '<PROJECT_ROOT>/app/screens'
 
 module.system=haste
 module.system.haste.use_name_reducers=true
